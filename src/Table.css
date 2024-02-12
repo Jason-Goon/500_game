@@ -1,0 +1,31 @@
+/* src/components/Table.css */
+.table {
+    margin-top: 20px;
+  }
+  
+  .table h3 {
+    margin-bottom: 10px;
+  }
+  
+  .table-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .card {
+    .card {
+        width: 75px;
+        height: 105px;
+        border: 1px solid #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+        background-color: #fff;
+      }
+      
+    /* Your existing card styles */
+  }
+  

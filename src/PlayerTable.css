@@ -1,0 +1,32 @@
+/* PlayerTable.css */
+.playerTable {
+  border: 2px solid #85112e;
+  padding: 10px;
+  margin: 20px;
+  background-color: #300516;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the cards within the container */
+}
+
+.playerTable h3 {
+  width: 100%; /* Ensure the header spans the full width */
+  text-align: center;
+  color: #fff;
+}
+
+.play-cards {
+  display: flex;
+  flex-direction: row; /* Align cards in a row */
+  gap: 10px;
+}
+
+.card {
+  cursor: pointer;
+  transition: transform 0.2s; /* Animation */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Slight raise effect on hover */
+}

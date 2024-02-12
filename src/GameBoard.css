@@ -1,0 +1,12 @@
+.gameBoard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gameBoard .actions {
+  margin: 20px 0;
+}
+
+/* Assuming DiscardTable and PlayTable have their own CSS for specific styling */
+

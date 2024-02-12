@@ -1,0 +1,33 @@
+/* App.css - Simplified for a minimalistic look */
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Light grey background for a subtle look */
+}
+
+.App-header {
+  background-color: #282c34; /* Dark background for the header section */
+  color: white;
+  padding: 20px 0;
+  width: 100%;
+}
+
+h1 {
+  color: #50091f; /* Light blue color for the main heading */
+}
+
+/* Additional basic styles for links and content alignment */
+.App-link {
+  color: #330513;
+  text-decoration: none;
+}
+
+/* Centering content */
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
